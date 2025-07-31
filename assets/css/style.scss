@@ -4,9 +4,6 @@
 @import "jekyll-theme-minimal";
 
 // Custom Overrides Below
-.wrapper-section {
-  max-width: 60%;  // or any value you prefer, like 90%, 1000px, etc.
-  width: 100%;
-  margin: 0 auto;
-  padding: 2em;
+section {
+  width: 850px;
 }
