@@ -4,6 +4,10 @@
 @import "jekyll-theme-minimal";
 
 // Custom Overrides Below
+.wrapper {
+  width:1160px;
+}
+
 section {
-  width: 850px;
+  width: 800px;
 }
