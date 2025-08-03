@@ -10,18 +10,28 @@ Our application can perform real-time rendering with the stylized shaders, and c
 
 ## Gallery
 
-[Paper](https://your-paper-link.com) | [Source](https://github.com/your-repo-link)
+**[Paper](https://yeunnn.github.io/AnitoCrossHatch/)** \| **[Source](https://github.com/Zerithe/CrossHatchEditor)**
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="./assets/img/main1.png" alt="main1" style="width: 30%; max-width: 300px;" />
-  <img src="./assets/img/main2.png" alt="main2" style="width: 30%; max-width: 300px;" />
-  <img src="./assets/img/main3.png" alt="main3" style="width: 30%; max-width: 300px;" />
-  <img src="./assets/img/main4.png" alt="main4" style="width: 30%; max-width: 300px;" />
-  <img src="./assets/img/main5.png" alt="main5" style="width: 30%; max-width: 300px;" />
-  <img src="./assets/img/main6.png" alt="main6" style="width: 30%; max-width: 300px;" />
+<div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+  <a href="./assets/img/main1.png" target="_blank">
+    <img src="./assets/img/main1.png" alt="main1" style="width: 45%; max-width: 500px;" />
+  </a>
+  <a href="./assets/img/main2.png" target="_blank">
+    <img src="./assets/img/main2.png" alt="main2" style="width: 45%; max-width: 500px;" />
+  </a>
+  <a href="./assets/img/main3.png" target="_blank">
+    <img src="./assets/img/main3.png" alt="main3" style="width: 45%; max-width: 500px;" />
+  </a>
+  <a href="./assets/img/main4.png" target="_blank">
+    <img src="./assets/img/main4.png" alt="main4" style="width: 45%; max-width: 500px;" />
+  </a>
+  <a href="./assets/img/main5.png" target="_blank">
+    <img src="./assets/img/main5.png" alt="main5" style="width: 45%; max-width: 500px;" />
+  </a>
+  <a href="./assets/img/main6.png" target="_blank">
+    <img src="./assets/img/main6.png" alt="main6" style="width: 45%; max-width: 500px;" />
+  </a>
 </div>
-
-<br>
 
 [Explore More Images](./more-gallery.md)
 
