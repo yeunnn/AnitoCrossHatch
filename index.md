@@ -43,12 +43,12 @@ layout: default
 </div>
 
 <!-- Lightbox popups -->
-<div id="img1" class="lightbox"><a href="#gallery"><img src="./assets/img/main1.png" alt="main1 full" /></a></div>
-<div id="img2" class="lightbox"><a href="#gallery"><img src="./assets/img/main2.png" alt="main2 full" /></a></div>
-<div id="img3" class="lightbox"><a href="#gallery"><img src="./assets/img/main3.png" alt="main3 full" /></a></div>
-<div id="img4" class="lightbox"><a href="#gallery"><img src="./assets/img/main4.png" alt="main4 full" /></a></div>
-<div id="img5" class="lightbox"><a href="#gallery"><img src="./assets/img/main5.png" alt="main5 full" /></a></div>
-<div id="img6" class="lightbox"><a href="#gallery"><img src="./assets/img/main6.png" alt="main6 full" /></a></div>
+<div id="img1" class="lightbox"><a href="#!"><img src="./assets/img/main1.png" alt="main1 full" /></a></div>
+<div id="img2" class="lightbox"><a href="#!"><img src="./assets/img/main2.png" alt="main2 full" /></a></div>
+<div id="img3" class="lightbox"><a href="#!"><img src="./assets/img/main3.png" alt="main3 full" /></a></div>
+<div id="img4" class="lightbox"><a href="#!"><img src="./assets/img/main4.png" alt="main4 full" /></a></div>
+<div id="img5" class="lightbox"><a href="#!"><img src="./assets/img/main5.png" alt="main5 full" /></a></div>
+<div id="img6" class="lightbox"><a href="#!"><img src="./assets/img/main6.png" alt="main6 full" /></a></div>
 
 <br>
 **[Explore More Images](./more-gallery.md)**
