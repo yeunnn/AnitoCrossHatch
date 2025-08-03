@@ -11,6 +11,87 @@ Our application can perform real-time rendering with the stylized shaders, and c
 ### Watch Our Trailer!
 [![AnitoCrossHatch](https://img.youtube.com/vi/tr6x6hXhuC4/sddefault.jpg)](https://www.youtube.com/watch?v=tr6x6hXhuC4)
 
+## Performance Benchmark
+
+We performed qualitative testing by conducting a comparative analysis of our framework against Blender and Unity to evaluate the technical capabilities of AnitoCrosshatch relative to standard 3D engine software. Benchmarking was conducted using standard 3D scenes, with evaluation criteria focused on frames per second (FPS) and memory usage. These scenes were selected from McGuire's (2017) archive, a well-established dataset used in prior rendering studies. Scene selection was based on object count and geometric complexity.
+
+Scenes such as “Crytek Sponza”, “Conference Room”, “Rungholt”, and “Powerplant” feature numerous objects, while “Bedroom” and “Gallery” contain intricate geometry based on real-world scanned environments.
+
+#### **Figure 5.4** – Standard 3D Scenes Rendered in AnitoCrosshatch  
+![Scenes Rendered](./assets/img/chapter5_perf_figuretechnical.png)  
+*From left to right: Crytek Sponza ©2010 Frank Meinl, Crytek; Conference Room ©Anat Grnyberg and Greg Ward; Powerplant ©1999 University of North Carolina; Rungholt ©Kescha; Gallery ©2017 The Hallwyl Museum; Bedroom ©fhernand.*
+
+#### **Figure 5.5** – Triangle Count of Each Scene  
+![Triangle Count](./assets/img/chapter5_perf_trianglecount.png)  
+*Geometry triangle count for the selected standard 3D scenes.*
+
+#### **Figure 5.6** – Test Device Specifications  
+![Device Specs](./assets/img/chapter5_perf_performancetest.png)  
+*Computer specifications used for the performance tests.*
+
+Different rendering pipelines were used for Blender and Unity to match the capabilities of our real-time rendering pipeline. Blender utilized the EEVEE engine with rendered viewport shading, while Unity used the Universal Rendering Pipeline (URP), suitable for real-time applications in both games and animations.
+
+#### **Figure 5.7** – Rendering Pipelines for Each Engine  
+![Pipelines](./assets/img/chapter5_perf_renderingpipeline.png)  
+*Rendering pipeline setup for AnitoCrosshatch, Blender, and Unity.*
+
+To measure performance, we captured FPS over 1,000 frames with a cap at 144 FPS due to vertical synchronization (VSync). The FPS and memory usage were measured using platform-specific methods:
+- **AnitoCrosshatch:** Built-in benchmarking functionality
+- **Blender:** Python script for FPS and memory
+- **Unity:** C# runtime script and built-in profiler
+
+#### **Figure 5.8** – Expected FPS Measurements  
+![Expected FPS](./assets/img/chapter5_perf_expected.png)  
+*Targeted FPS performance expectations for each engine.*
+
+Table 5.4 summarizes the comparative technical performance. AnitoCrosshatch demonstrated stable and efficient rendering with consistent FPS and lower memory usage. Blender showed variable FPS, with averages as low as 88.23 and minimums dropping to 13.32 FPS. Unity maintained stable FPS but consumed significantly more memory due to its larger engine overhead.
+
+#### **Figure 5.9** – FPS and Memory Usage Results  
+![FPS Results](./assets/img/chapter5_perf_fpsresult.png)  
+*FPS and memory usage over 1,000 frames. AnitoCrosshatch is abbreviated as AC.*
+
+#### **Figure 5.10** – Technical Line Graph for Powerplant Scene  
+![Line Graph](./assets/img/chapter5_perf_technicallinegraph.png)  
+*FPS measured over 100 frames for the Powerplant scene with 12M+ triangles.*
+
+AnitoCrosshatch emerged as the most balanced engine, offering consistent real-time performance and minimal memory consumption, confirming its potential as a lightweight alternative for stylized rendering.
+
+---
+
+## Image Quality and Similarity
+
+### Perceptual-Based Metrics
+
+We conducted a quantitative evaluation of images rendered by AnitoCrosshatch and Blender using perceptual-based metrics, given that comparisons were made against a reference dataset rather than 1:1 ground-truth images.
+
+We used the following metrics:
+- **LPIPS** (Learned Perceptual Image Patch Similarity) – Zhang et al., 2018
+- **DISTS** (Deep Image Structure and Texture Similarity) – Ding et al., 2020
+
+Each rendered image \( R_i \) was compared to all reference dataset images \( D_j \) using the above metrics. We then averaged the similarity scores to assess how close the rendered output was to comic-style illustrations.
+
+The dataset used for comparison included 50 scanned comic pages and panels featuring crosshatching. Following the methodology of Vivoli et al. (2023), all images were left untreated to preserve original artistic qualities. Before evaluation:
+- White areas (speech bubbles, gutters) were masked.
+- The same mask was applied to both rendered and reference images.
+- A **Canny Edge Detection** step was added to focus on line-based crosshatching characteristics (Agrawal & Desai, 2024).
+
+#### **Figure 5.11** – Samples from the Crosshatching Reference Dataset  
+![Dataset Samples](./assets/img/chapter5_perceptual_dataset.png)  
+*Examples of raw, unaltered comic pages with crosshatching used in evaluation.*
+
+#### **Figure 5.12** – Perceptual Metrics Results (LPIPS + DISTS)  
+![Metrics Table](./assets/img/chapter5_perceptual_results.png)  
+*Cross-hatched image results using LPIPS (masked + canny) and DISTS (masked + canny). Best values are bolded. AC = AnitoCrosshatch.*
+
+#### **Figure 5.13** – Tested Rendered Images  
+![Rendered Samples](./assets/img/chapter5_perceptual_renderedimages.png)  
+*Rendered outputs compared across metrics. A = AnitoCrosshatch, B = Blender, C = Baseline (non-crosshatched).*
+
+Results (Table 5.5) show that AnitoCrosshatch (AC) consistently performed better in **DISTS**, indicating higher structural similarity with comic panels. LPIPS results were more mixed, with AC typically outperforming Blender, though in some cases baseline images performed comparably.
+
+These results affirm the stylistic relevance of AnitoCrosshatch’s outputs while highlighting areas for refinement. The relatively high LPIPS scores suggest that perceptual realism is still lacking in some aspects. Enhancements to the pipeline could further bridge the perceptual gap between stylized renderings and authentic comic panels.
+
+
 ### Human Perceptual Evaluation
 
 To complement our quantitative image similarity metrics, we conducted a human perceptual evaluation to assess how well **AnitoCrosshatch**’s cross-hatching output resembles actual comic book panels. This evaluation aimed to capture subjective quality judgments that automated metrics might miss, particularly regarding the artistic authenticity of the cross-hatching technique.
