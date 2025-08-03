@@ -23,16 +23,16 @@
 <div id="extra3" class="lightbox"><a href="#"><img src="./assets/img/extra3.png" alt="extra3 full" /></a></div>
 <div id="extra4" class="lightbox"><a href="#"><img src="./assets/img/extra4.png" alt="extra4 full" /></a></div>
 <div id="extra5" class="lightbox"><a href="#"><img src="./assets/img/extra5.png" alt="extra5 full" /></a></div>
-<div id="extra6" class="lightbox"><a href="#"><img src="./assets/img/extra6.png" alt="extra6 full" /></a></div>
+<div id="extra6" class="lightbox"><a href="#"><img src="./assets/img/extra6.PNG" alt="extra6 full" /></a></div>
 <div id="extra7" class="lightbox"><a href="#"><img src="./assets/img/extra7.png" alt="extra7 full" /></a></div>
-<div id="extra8" class="lightbox"><a href="#"><img src="./assets/img/extra8.png" alt="extra8 full" /></a></div>
-<div id="extra9" class="lightbox"><a href="#"><img src="./assets/img/extra9.png" alt="extra9 full" /></a></div>
+<div id="extra8" class="lightbox"><a href="#"><img src="./assets/img/extra8.PNG" alt="extra8 full" /></a></div>
+<div id="extra9" class="lightbox"><a href="#"><img src="./assets/img/extra9.PNG" alt="extra9 full" /></a></div>
 <div id="extra10" class="lightbox"><a href="#"><img src="./assets/img/extra10.png" alt="extra10 full" /></a></div>
 <div id="extra11" class="lightbox"><a href="#"><img src="./assets/img/extra11.png" alt="extra11 full" /></a></div>
-<div id="extra12" class="lightbox"><a href="#"><img src="./assets/img/extra12.png" alt="extra12 full" /></a></div>
+<div id="extra12" class="lightbox"><a href="#"><img src="./assets/img/extra12.PNG" alt="extra12 full" /></a></div>
 <div id="extra13" class="lightbox"><a href="#"><img src="./assets/img/extra13.png" alt="extra13 full" /></a></div>
 <div id="extra14" class="lightbox"><a href="#"><img src="./assets/img/extra14.png" alt="extra14 full" /></a></div>
 
 <br>
 
-[Return to Home](./index.md)
+**[Return to Home](./index.md)**
