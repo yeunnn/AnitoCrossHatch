@@ -6,8 +6,8 @@ google_analytics:
 theme: jekyll-theme-minimal
 github:
   owner_url: https://github.com/Zerithe/CrossHatchEditor
-  owner_name: Pencilheads
+  owner_name: Pencilhead
   repository_url: https://github.com/Zerithe/CrossHatchEditor
   zip_url: https://github.com/Zerithe/CrossHatchEditor
   tar_url: https://github.com/Zerithe/CrossHatchEditor
-  repository_nwo: https://github.com/Zerithe
+  repository_nwo: Zerithe/CrossHatchEditor

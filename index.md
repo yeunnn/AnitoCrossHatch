@@ -31,7 +31,7 @@ layout: default
 <br>
 ## Gallery
 
-**[Paper](https://yeunnn.github.io/AnitoCrossHatch/)** \| **[Source](https://github.com/Zerithe/CrossHatchEditor)**
+**[Paper](https://github.com/Zerithe/CrossHatchEditor)** \| **[Source](https://github.com/Zerithe/CrossHatchEditor)**
 
 <div class="gallery-container">
   <a href="#img1"><img src="./assets/img/main1.png" alt="main1" /></a>
