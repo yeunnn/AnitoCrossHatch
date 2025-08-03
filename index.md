@@ -73,7 +73,6 @@ This project, AnitoCrosshatch, is a 3D editing tool that digitally emulates trad
 
 <br>
 ---
-<br>
 
 ## Performance Benchmark
 
@@ -122,7 +121,6 @@ AnitoCrosshatch emerged as the most balanced engine, offering consistent real-ti
 
 <br>
 ---
-<br>
 
 ## Image Quality and Similarity
 
@@ -182,14 +180,11 @@ Future improvements could focus on enhancing the **naturalness and variability**
 
 <br>
 ---
-<br>
 
 ## Acknowledgements
 
 We would like to acknowledge **De La Salle University Manila (DLSU)**, the **College of Computer Studies (CCS)**, the **DLSU GameLab** and the support of the **Department of Science and Technology – Philippine Council for Industry, Energy and Emerging Technology Research and Development (DOST-PCIEERD)** throughout the course of this project.
 
 We also extend our deepest gratitude to our adviser, **Neil Patrick A. DEL GALLEGO, Ph.D.**, for his invaluable mentorship and expertise.
-
-<br><br>
 
 ---
