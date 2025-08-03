@@ -8,6 +8,23 @@ AnitoCrosshatch is a 3D editor tool designed to create and edit 3D environments 
 
 Our application can perform real-time rendering with the stylized shaders, and can produce a variety of different crosshatching styles with the available parameters of our crosshatching system.
 
+## Gallery
+
+[Paper](https://your-paper-link.com) | [Source](https://github.com/your-repo-link)
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="./assets/img/main1.png" alt="main1" style="width: 30%; max-width: 300px;" />
+  <img src="./assets/img/main2.png" alt="main2" style="width: 30%; max-width: 300px;" />
+  <img src="./assets/img/main3.png" alt="main3" style="width: 30%; max-width: 300px;" />
+  <img src="./assets/img/main4.png" alt="main4" style="width: 30%; max-width: 300px;" />
+  <img src="./assets/img/main5.png" alt="main5" style="width: 30%; max-width: 300px;" />
+  <img src="./assets/img/main6.png" alt="main6" style="width: 30%; max-width: 300px;" />
+</div>
+
+<br>
+
+[Explore More Images](./more-gallery.md)
+
 ### Watch Our Trailer!
 [![AnitoCrossHatch](https://img.youtube.com/vi/tr6x6hXhuC4/sddefault.jpg)](https://www.youtube.com/watch?v=tr6x6hXhuC4)
 
