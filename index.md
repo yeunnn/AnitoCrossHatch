@@ -29,7 +29,8 @@ Our application can perform real-time rendering with the stylized shaders, and c
 <div id="img5" class="lightbox"><a href="#"><img src="./assets/img/main5.png" alt="main5 full" /></a></div>
 <div id="img6" class="lightbox"><a href="#"><img src="./assets/img/main6.png" alt="main6 full" /></a></div>
 
-[Explore More Images](./more-gallery.md)
+<br>
+**[Explore More Images](./more-gallery.md)**
 
 ### Watch Our Trailer!
 [![AnitoCrossHatch](https://img.youtube.com/vi/tr6x6hXhuC4/sddefault.jpg)](https://www.youtube.com/watch?v=tr6x6hXhuC4)
