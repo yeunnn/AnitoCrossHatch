@@ -6,13 +6,13 @@
   <a href="#extra3"><img src="./assets/img/extra3.png" alt="extra3" /></a>
   <a href="#extra4"><img src="./assets/img/extra4.png" alt="extra4" /></a>
   <a href="#extra5"><img src="./assets/img/extra5.png" alt="extra5" /></a>
-  <a href="#extra6"><img src="./assets/img/extra6.png" alt="extra6" /></a>
+  <a href="#extra6"><img src="./assets/img/extra6.PNG" alt="extra6" /></a>
   <a href="#extra7"><img src="./assets/img/extra7.png" alt="extra7" /></a>
-  <a href="#extra8"><img src="./assets/img/extra8.png" alt="extra8" /></a>
-  <a href="#extra9"><img src="./assets/img/extra9.png" alt="extra9" /></a>
+  <a href="#extra8"><img src="./assets/img/extra8.PNG" alt="extra8" /></a>
+  <a href="#extra9"><img src="./assets/img/extra9.PNG" alt="extra9" /></a>
   <a href="#extra10"><img src="./assets/img/extra10.png" alt="extra10" /></a>
   <a href="#extra11"><img src="./assets/img/extra11.png" alt="extra11" /></a>
-  <a href="#extra12"><img src="./assets/img/extra12.png" alt="extra12" /></a>
+  <a href="#extra12"><img src="./assets/img/extra12.PNG" alt="extra12" /></a>
   <a href="#extra13"><img src="./assets/img/extra13.png" alt="extra13" /></a>
   <a href="#extra14"><img src="./assets/img/extra14.png" alt="extra14" /></a>
 </div>

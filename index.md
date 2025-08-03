@@ -32,7 +32,9 @@ Our application can perform real-time rendering with the stylized shaders, and c
 <br>
 **[Explore More Images](./more-gallery.md)**
 
-### Watch Our Trailer!
+<br>
+
+## Watch Our Trailer!
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 1.5em;">
   <iframe src="https://www.youtube.com/embed/tr6x6hXhuC4"
           frameborder="0"
@@ -41,6 +43,8 @@ Our application can perform real-time rendering with the stylized shaders, and c
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
   </iframe>
 </div>
+
+---
 
 ## Performance Benchmark
 
@@ -87,6 +91,7 @@ Figure 1.5 summarizes the comparative technical performance. AnitoCrosshatch dem
 
 AnitoCrosshatch emerged as the most balanced engine, offering consistent real-time performance and minimal memory consumption, confirming its potential as a lightweight alternative for stylized rendering.
 
+---
 
 ## Image Quality and Similarity
 
@@ -144,6 +149,17 @@ The survey results reinforce our quantitative findings that AnitoCrosshatch prod
 
 Future improvements could focus on enhancing the **naturalness and variability** of the cross-hatching patterns to better match the organic quality found in hand-drawn comic illustrations.
 
+---
+
+## Conclusion
+
+Lorem Ipsum
+
+---
+
+## Acknowledgements
+
+Lorem Ipsum
 <br><br><br>
 
 * * *
