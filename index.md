@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div align="center">
-  <h1>AnitoCrosshatch: A 3D Editor Tool for Cross Hatch Rendered 3D Environments</h1>
+  <h1>AnitoCrossHatch: A 3D Editor Tool for Cross Hatch Rendered 3D Environments</h1>
 </div>
 
 <br>
@@ -68,8 +68,12 @@ layout: default
 <br>
 <br>
 
-## Abstract
-This project, AnitoCrosshatch, is a 3D editing tool that digitally emulates traditional cross-hatching to bridge the gap between hand-drawn artistry and modern animation workflows. As the industry increasingly adopts stylized 2D elements—such as brush textures and vintage comic patterns—to distinguish 3D works, crosshatching remains underrepresented despite its proven ability to convey depth and materiality efficiently. Our editor integrates a three-pass BGFX pipeline that keeps the organic irregularity of manual crosshatching while offering artists precise control over line density, angle, and curvature. Across six benchmark scenes (up to 12 M triangles), the tool sustained the monitor-capped 144 FPS and used dramatically less memory than Unity and Blender, showing steadier frame times in the heaviest “Powerplant” model test. Quantitative image-similarity tests recorded the best DISTS = 0.2926 and LPIPS = 0.6980 against a 50-panel comic reference set, outperforming Blender’s stylised output in key scenes, while a 15-participant study yielded a mean System Usability Scale of 68.8—comfortably above the “acceptable” threshold and well ahead of Blender’s 51.5. Participants rated stylistic authenticity at 3.25 / 5, signalling recognisable but improvable fidelity to printed comics. Remaining limitations include a small, convenience-sampled evaluation dataset and missing quality-of-life features such as shortcut schemes and undo/redo. Nevertheless, AnitoCrosshatch demonstrates the viability of specialized stylization tools and shows that a specialised editor can run at game-engine speeds without heavy resource cost. This opens up avenues for future development in real-time stylization rendering, suggesting a growing niche for traditionally inspired digital techniques in professional rendering pipelines.
+<h2>Abstract</h2>
+
+<div style="text-align: justify;">
+  This project, <strong>AnitoCrosshatch</strong>, is a 3D editing tool that digitally emulates traditional cross-hatching to bridge the gap between hand-drawn artistry and modern animation workflows. As the industry increasingly adopts stylized 2D elements—such as brush textures and vintage comic patterns—to distinguish 3D works, crosshatching remains underrepresented despite its proven ability to convey depth and materiality efficiently. Our editor integrates a three-pass BGFX pipeline that keeps the organic irregularity of manual crosshatching while offering artists precise control over line density, angle, and curvature. Across six benchmark scenes (up to 12 M triangles), the tool sustained the monitor-capped 144 FPS and used dramatically less memory than Unity and Blender, showing steadier frame times in the heaviest “Powerplant” model test.Quantitative image-similarity tests recorded the best DISTS = 0.2926 and LPIPS = 0.6980 against a 50-panel comic reference set, outperforming Blender’s stylised output in key scenes, while a 15-participant study yielded a mean System Usability Scale of 68.8—comfortably above the “acceptable” threshold and well ahead of Blender’s 51.5. Participants rated stylistic authenticity at 3.25 / 5, signalling recognisable but improvable fidelity to printed comics. Remaining limitations include a small, convenience-sampled evaluation dataset and missing quality-of-life features such as shortcut schemes and UI/UX improvements. Nevertheless, AnitoCrosshatch demonstrates the viability of specialized stylization tools and shows that a specialised editor can run at game-engine speeds without heavy resource cost. This opens up avenues for future development in real-time stylization rendering, suggesting a growing niche for traditionally inspired digital techniques in professional rendering pipelines.
+</div>
+
 
 <br>
 ---
