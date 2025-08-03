@@ -34,44 +34,21 @@ layout: default
 **[Paper](https://github.com/Zerithe/CrossHatchEditor)** \| **[Source](https://github.com/Zerithe/CrossHatchEditor)**
 
 <div class="gallery-container">
-  <span id="img1-anchor"></span>
   <a href="#img1"><img src="./assets/img/main1.png" alt="main1" /></a>
-
-  <span id="img2-anchor"></span>
   <a href="#img2"><img src="./assets/img/main2.png" alt="main2" /></a>
-
-  <span id="img3-anchor"></span>
   <a href="#img3"><img src="./assets/img/main3.png" alt="main3" /></a>
-
-  <span id="img4-anchor"></span>
   <a href="#img4"><img src="./assets/img/main4.png" alt="main4" /></a>
-
-  <span id="img5-anchor"></span>
   <a href="#img5"><img src="./assets/img/main5.png" alt="main5" /></a>
-
-  <span id="img6-anchor"></span>
   <a href="#img6"><img src="./assets/img/main6.png" alt="main6" /></a>
 </div>
 
 <!-- Lightbox popups -->
-<div id="img1" class="lightbox">
-  <a href="#img1-anchor"><img src="./assets/img/main1.png" alt="main1 full" /></a>
-</div>
-<div id="img2" class="lightbox">
-  <a href="#img2-anchor"><img src="./assets/img/main2.png" alt="main2 full" /></a>
-</div>
-<div id="img3" class="lightbox">
-  <a href="#img3-anchor"><img src="./assets/img/main3.png" alt="main3 full" /></a>
-</div>
-<div id="img4" class="lightbox">
-  <a href="#img4-anchor"><img src="./assets/img/main4.png" alt="main4 full" /></a>
-</div>
-<div id="img5" class="lightbox">
-  <a href="#img5-anchor"><img src="./assets/img/main5.png" alt="main5 full" /></a>
-</div>
-<div id="img6" class="lightbox">
-  <a href="#img6-anchor"><img src="./assets/img/main6.png" alt="main6 full" /></a>
-</div>
+<div id="img1" class="lightbox"><a href="javascript:void(0)" onclick="window.location.hash='';"><img src="./assets/img/main1.png" alt="main1 full" /></a></div>
+<div id="img2" class="lightbox"><a href="javascript:void(0)" onclick="window.location.hash='';"><img src="./assets/img/main2.png" alt="main2 full" /></a></div>
+<div id="img3" class="lightbox"><a href="javascript:void(0)" onclick="window.location.hash='';"><img src="./assets/img/main3.png" alt="main3 full" /></a></div>
+<div id="img4" class="lightbox"><a href="javascript:void(0)" onclick="window.location.hash='';"><img src="./assets/img/main4.png" alt="main4 full" /></a></div>
+<div id="img5" class="lightbox"><a href="javascript:void(0)" onclick="window.location.hash='';"><img src="./assets/img/main5.png" alt="main5 full" /></a></div>
+<div id="img6" class="lightbox"><a href="javascript:void(0)" onclick="window.location.hash='';"><img src="./assets/img/main6.png" alt="main6 full" /></a></div>
 
 <br>
 **[Explore More Images](./more-gallery.md)**
