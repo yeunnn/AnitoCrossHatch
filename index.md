@@ -2,9 +2,12 @@
 layout: default
 ---
 
-# <div align="center">AnitoCrosshatch: A 3D Editor Tool for Cross Hatch Rendered 3D Environments</div>
+<div align="center">
+  <h1>AnitoCrosshatch: A 3D Editor Tool for Cross Hatch Rendered 3D Environments</h1>
+</div>
 
 <div align="center">
+  <h3>
   A Thesis Presented to<br>
   the Faculty of the College of Computer Studies<br>
   De La Salle University Manila<br><br>
@@ -14,12 +17,13 @@ layout: default
   DONATO, Adriel Joseph Y.<br>
   MANIPOL, Marion Jose S.<br>
   REYES, Kenwin Hans D.</strong>
+  </h3>
 </div>
 
 <br>
 
 <p align="center">
-  <img src="./assets/img/DLSU_CCS_GAMELab_DOST-PCIEERD_logo_combined.png" alt="DLSU CCS GAMELab DOST Logo" style="max-width: 500px; width: 100%;">
+  <img src="./assets/img/DLSU_CCS_GAMELab_DOST-PCIEERD_logo_combined.png" alt="DLSU CCS GAMELab DOST Logo" style="max-width: 350px; width: 100%;">
 </p>
 
 <br>
