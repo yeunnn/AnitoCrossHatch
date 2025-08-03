@@ -33,7 +33,14 @@ Our application can perform real-time rendering with the stylized shaders, and c
 **[Explore More Images](./more-gallery.md)**
 
 ### Watch Our Trailer!
-[![AnitoCrossHatch](https://img.youtube.com/vi/tr6x6hXhuC4/sddefault.jpg)](https://www.youtube.com/watch?v=tr6x6hXhuC4)
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 1.5em;">
+  <iframe src="https://www.youtube.com/embed/tr6x6hXhuC4"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 ## Performance Benchmark
 
