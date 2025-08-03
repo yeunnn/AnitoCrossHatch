@@ -12,25 +12,39 @@ Our application can perform real-time rendering with the stylized shaders, and c
 
 **[Paper](https://yeunnn.github.io/AnitoCrossHatch/)** \| **[Source](https://github.com/Zerithe/CrossHatchEditor)**
 
-<div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
-  <a href="./assets/img/main1.png" target="_blank">
-    <img src="./assets/img/main1.png" alt="main1" style="width: 45%; max-width: 500px;" />
-  </a>
-  <a href="./assets/img/main2.png" target="_blank">
-    <img src="./assets/img/main2.png" alt="main2" style="width: 45%; max-width: 500px;" />
-  </a>
-  <a href="./assets/img/main3.png" target="_blank">
-    <img src="./assets/img/main3.png" alt="main3" style="width: 45%; max-width: 500px;" />
-  </a>
-  <a href="./assets/img/main4.png" target="_blank">
-    <img src="./assets/img/main4.png" alt="main4" style="width: 45%; max-width: 500px;" />
-  </a>
-  <a href="./assets/img/main5.png" target="_blank">
-    <img src="./assets/img/main5.png" alt="main5" style="width: 45%; max-width: 500px;" />
-  </a>
-  <a href="./assets/img/main6.png" target="_blank">
-    <img src="./assets/img/main6.png" alt="main6" style="width: 45%; max-width: 500px;" />
-  </a>
+<div class="gallery-container">
+  <a href="#img1"><img src="./assets/img/main1.png" alt="main1" /></a>
+  <a href="#img2"><img src="./assets/img/main2.png" alt="main2" /></a>
+  <a href="#img3"><img src="./assets/img/main3.png" alt="main3" /></a>
+  <a href="#img4"><img src="./assets/img/main4.png" alt="main4" /></a>
+  <a href="#img5"><img src="./assets/img/main5.png" alt="main5" /></a>
+  <a href="#img6"><img src="./assets/img/main6.png" alt="main6" /></a>
+</div>
+
+<!-- Lightbox popups -->
+<div id="img1" class="lightbox">
+  <a href="#">×</a>
+  <img src="./assets/img/main1.png" alt="main1 full" />
+</div>
+<div id="img2" class="lightbox">
+  <a href="#">×</a>
+  <img src="./assets/img/main2.png" alt="main2 full" />
+</div>
+<div id="img3" class="lightbox">
+  <a href="#">×</a>
+  <img src="./assets/img/main3.png" alt="main3 full" />
+</div>
+<div id="img4" class="lightbox">
+  <a href="#">×</a>
+  <img src="./assets/img/main4.png" alt="main4 full" />
+</div>
+<div id="img5" class="lightbox">
+  <a href="#">×</a>
+  <img src="./assets/img/main5.png" alt="main5 full" />
+</div>
+<div id="img6" class="lightbox">
+  <a href="#">×</a>
+  <img src="./assets/img/main6.png" alt="main6 full" />
 </div>
 
 [Explore More Images](./more-gallery.md)
