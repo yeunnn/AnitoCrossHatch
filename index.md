@@ -66,12 +66,14 @@ layout: default
 </div>
 
 <br>
----
+<br>
 
 ## Abstract
 This project, AnitoCrosshatch, is a 3D editing tool that digitally emulates traditional cross-hatching to bridge the gap between hand-drawn artistry and modern animation workflows. As the industry increasingly adopts stylized 2D elements—such as brush textures and vintage comic patterns—to distinguish 3D works, crosshatching remains underrepresented despite its proven ability to convey depth and materiality efficiently. Our editor integrates a three-pass BGFX pipeline that keeps the organic irregularity of manual crosshatching while offering artists precise control over line density, angle, and curvature. Across six benchmark scenes (up to 12 M triangles), the tool sustained the monitor-capped 144 FPS and used dramatically less memory than Unity and Blender, showing steadier frame times in the heaviest “Powerplant” model test. Quantitative image-similarity tests recorded the best DISTS = 0.2926 and LPIPS = 0.6980 against a 50-panel comic reference set, outperforming Blender’s stylised output in key scenes, while a 15-participant study yielded a mean System Usability Scale of 68.8—comfortably above the “acceptable” threshold and well ahead of Blender’s 51.5. Participants rated stylistic authenticity at 3.25 / 5, signalling recognisable but improvable fidelity to printed comics. Remaining limitations include a small, convenience-sampled evaluation dataset and missing quality-of-life features such as shortcut schemes and undo/redo. Nevertheless, AnitoCrosshatch demonstrates the viability of specialized stylization tools and shows that a specialised editor can run at game-engine speeds without heavy resource cost. This opens up avenues for future development in real-time stylization rendering, suggesting a growing niche for traditionally inspired digital techniques in professional rendering pipelines.
 
+<br>
 ---
+<br>
 
 ## Performance Benchmark
 
@@ -118,7 +120,9 @@ Figure 1.5 summarizes the comparative technical performance. AnitoCrosshatch dem
 
 AnitoCrosshatch emerged as the most balanced engine, offering consistent real-time performance and minimal memory consumption, confirming its potential as a lightweight alternative for stylized rendering.
 
+<br>
 ---
+<br>
 
 ## Image Quality and Similarity
 
@@ -176,33 +180,16 @@ The survey results reinforce our quantitative findings that AnitoCrosshatch prod
 
 Future improvements could focus on enhancing the **naturalness and variability** of the cross-hatching patterns to better match the organic quality found in hand-drawn comic illustrations.
 
+<br>
 ---
-
-## Conclusion
-
-We presented **AnitoCrosshatch**, a 3D editor tool for crosshatched 3D environments, creating the framework and rendering pipeline that facilitates non-photorealistic rendering with a multi-layered crosshatching shader—capable of producing stylized 3D crosshatching scenes with ease-of-use and accessibility in mind. Our application performs real-time rendering with stylized shaders and produces a variety of crosshatching styles through customizable system parameters.
-
-When comparing technical performance with Blender and Unity, our editor displayed the most consistent results in both average FPS and memory usage when rendering 3D scenes. For example, over the most graphically intensive scene, **Figure 1.5** demonstrated AnitoCrosshatch's stable FPS over time.
-
-AnitoCrosshatch is comparable to standard 3D editors like Blender in terms of usability, scoring higher through the System Usability Scale (SUS), with an average of **68.67** compared to Blender’s **51.47**. This supports AnitoCrosshatch’s viability as a 3D editor tool, reinforced by positive feedback regarding its stylization and simplicity. These factors contribute to an easy-to-learn user experience. However, a **standard deviation of 9.97** in the SUS results suggests notable variation in user experience across participants.
-
-The **DISTS** and **LPIPS** scores reflect positively on AnitoCrosshatch’s perceptual image quality, indicating that its outputs are comparable to those produced by Blender. While image fidelity appears close overall, closer inspection reveals that AnitoCrosshatch handles **directional strokes** more effectively—especially in **Scenes 1 and 3**, where it achieved the lowest DISTS score (**0.2926**) and LPIPS score (**0.6980**) among all tested methods.
-
-However, the remaining performance gap suggests that the chosen similarity metrics may not fully capture the strengths of AnitoCrosshatch. This may stem from fundamental differences between rendered 3D scenes and real comic panels, which often rely on hand-drawn abstractions and stylistic nuances not easily reproducible using standard 3D assets.
-
-The **human perceptual evaluation** further provided valuable insights into image quality. Participants rated our images an average of **3.25 out of 5**, suggesting moderate similarity to comic-style references. Standard deviations between **0.67–0.68** also show a high level of agreement among participants.
-
-Despite its strengths, AnitoCrosshatch lacks in some areas compared to more mature 3D editors—particularly in recreating comic-level image quality and missing quality-of-life features such as keyboard shortcuts and design improvements. The application also lacks rendering features like **object transparency** and **shadows**, which are standard in modern 3D editors.
-
-### Future Work
-
-Future development should focus on expanding the core 3D editing features of the application. This includes support for **animation creation** and potential **game integration**, aligning with industry trends in stylized rendering. Additionally, exploring **learning-based methods** like **neural style transfer** could enhance the crosshatching technique by adapting it to both traditional and modern media. Such improvements could further increase AnitoCrosshatch’s stylistic fidelity and creative flexibility.
-
----
+<br>
 
 ## Acknowledgements
 
-Lorem Ipsum
-<br><br><br>
+We would like to acknowledge **De La Salle University Manila (DLSU)**, the **College of Computer Studies (CCS)**, the **DLSU GameLab** and the support of the **Department of Science and Technology – Philippine Council for Industry, Energy and Emerging Technology Research and Development (DOST-PCIEERD)** throughout the course of this project.
+
+We also extend our deepest gratitude to our adviser, **Neil Patrick A. DEL GALLEGO, Ph.D.**, for his invaluable mentorship and expertise.
+
+<br><br>
 
 ---
