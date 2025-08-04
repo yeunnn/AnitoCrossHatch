@@ -222,8 +222,6 @@ The results show a **notable difference in usability** between AnitoCrosshatch a
 
 These findings support the potential of AnitoCrosshatch as a **viable 3D editor**, while also emphasizing areas for improvement—particularly in addressing the **quality-of-life features** that participants highlighted during testing.
 
-<br>
-
 ### User Impressions and Feedback
 
 User experiences and impressions were largely influenced by participants’ **familiarity with Blender** and other 3D editors. What separated Blender and AnitoCrosshatch was the **simple and straightforward user interface** of our application. Functions like the **material editor** and **viewport control** were easier to navigate compared to Blender’s interface.
@@ -238,8 +236,6 @@ However, while the user interface improved accessibility, it also exposed limita
 - **No keyboard shortcuts**, which was a major drawback for experienced users
 
 These usability gaps affected participants’ willingness to adopt AnitoCrosshatch for long-term or full-scale 3D production.
-
-<br>
 
 ### Conclusion of Testing
 
