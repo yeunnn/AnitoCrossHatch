@@ -185,6 +185,76 @@ Future improvements could focus on enhancing the **naturalness and variability**
 <br>
 ---
 
+## System Usability
+
+We conducted hands-on testing with **15 participants** who had varying levels of experience with Blender. The user playtesting followed these key stages:
+
+1. **Introduction and Consent** – Participants reviewed testing goals and signed consent forms.  
+2. **Setup** – Participants were asked to install the program on their devices.  
+3. **Free Exploration (5 min)** – Unstructured time to discover basic controls.  
+4. **Guided Task (10 min)** – Recreation of our reference crosshatched scene (Figure 4.0).  
+5. **Creative Task (10 min)** – Participants were given time to create their own scene.  
+6. **Interview** – Gathering of participants’ feedback and thoughts on the program.  
+7. **Post-Playtest Survey** – Included the System Usability Scale (SUS) for both AnitoCrosshatch and Blender.
+
+#### Figure 4.0  
+![Reference Scene](./assets/img/chapter5_sus_userTest.png)  
+*Reference scene used in user testing.*
+
+We calculated the results of the SUS survey according to the method described in **Brooke (1996)**, where:
+
+- **Odd-numbered items**: `x = (sum of points) − 5`  
+- **Even-numbered items**: `y = 25 − (sum of points)`  
+- **Final SUS score**: `(x + y) × 2.5`
+
+The scoring results were as follows:
+
+- **AnitoCrosshatch** scored a **mean SUS of 68.82**
+- **Blender** scored **51.47**
+
+AnitoCrosshatch reaches the **average acceptable SUS benchmark (68)**, while Blender falls below it.
+
+#### Figure 4.1  
+![SUS Score Comparison](./assets/img/chapter5_sus_susscore.PNG)  
+*Updated SUS Score Comparison (n = 17).*
+
+The results show a **notable difference in usability** between AnitoCrosshatch and Blender. AnitoCrosshatch recorded a **higher mean SUS score of 68.67**, compared to Blender’s **51.47**, indicating more favorable usability. The standard deviation further reflects varying user satisfaction levels with both applications.
+
+These findings support the potential of AnitoCrosshatch as a **viable 3D editor**, while also emphasizing areas for improvement—particularly in addressing the **quality-of-life features** that participants highlighted during testing.
+
+<br>
+
+### User Impressions and Feedback
+
+User experiences and impressions were largely influenced by participants’ **familiarity with Blender** and other 3D editors. What separated Blender and AnitoCrosshatch was the **simple and straightforward user interface** of our application. Functions like the **material editor** and **viewport control** were easier to navigate compared to Blender’s interface.
+
+This provided an easier learning curve for participants, even for those more experienced with Blender. They valued the **simple control scheme** and the tool's focus on **accessibility** over complexity, making it ideal for use as a **compositing tool** for stylized 3D renders.
+
+However, while the user interface improved accessibility, it also exposed limitations in usability. Participants pointed out key shortcomings:
+
+- **Lack of flexible and intuitive controls**
+- **Missing features like undo/redo**
+- **Rotating gizmo not camera-relative**
+- **No keyboard shortcuts**, which was a major drawback for experienced users
+
+These usability gaps affected participants’ willingness to adopt AnitoCrosshatch for long-term or full-scale 3D production.
+
+<br>
+
+### Conclusion of Testing
+
+As a **specialized tool for scene composition and stylized rendering**, AnitoCrosshatch excels in beginner-friendly creation of **crosshatched 3D scenes**. Its strength lies in its stylistic capabilities and streamlined experience. However, the **lack of advanced features** and **intuitive design enhancements** limits its scalability.
+
+Future improvements should focus on:
+
+- Implementing common editor features (undo/redo, shortcuts)
+- Enhancing control schemes (e.g., camera-relative gizmos)
+- Extending capabilities for **larger-scale 3D projects**
+
+In its current state, AnitoCrosshatch is ideal for **simple scene creation** and **quick visualizations**, offering accessibility over complexity—but its usability and extensibility will benefit from continued iteration and refinement.
+
+<br>
+
 ## Acknowledgements
 
 We would like to acknowledge **De La Salle University Manila (DLSU)**, the **College of Computer Studies (CCS)**, the **DLSU GameLab** and the support of the **Department of Science and Technology – Philippine Council for Industry, Energy and Emerging Technology Research and Development (DOST-PCIEERD)** throughout the course of this project.
