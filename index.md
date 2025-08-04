@@ -27,6 +27,10 @@ layout: default
   <img src="./assets/img/DLSU_CCS_GAMELab_DOST-PCIEERD_logo_combined.png" alt="DLSU CCS GAMELab DOST Logo" style="max-width: 490px; width: 100%;">
 </p>
 
+Email: neil.delgallego@dlsu.edu.ph
+
+Socials: https://www.facebook.com/DLSUGAMELab
+
 <br>
 <br>
 ## Gallery
